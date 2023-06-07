@@ -23,7 +23,7 @@ function Home() {
     const handleDelete=(id)=>{
         let header={}
         let req={id}
-        axios.post("http://localhost:8081/delete",req,header)
+        axios.post("http://localhost:8080/delete",req,header)
         .then((res) => {
           setReload(!reload)
         })
