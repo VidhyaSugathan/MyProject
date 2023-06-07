@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  padding-top: 50px;
+  margin-left: 15%;
+  margin-right: 5%;
+  flex-direction: row;
+  background-color: white;
+  
+}
+.Image{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 500px 500px;
+}
+.Content{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px 0px 15px;
+  color: #212529;
+}
+.Content label{
+  padding: 6px 0px 6px 0px;
+  font-size: medium;
+}
+.Content ::placeholder{
+  color: rgb(179, 174, 174);
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border: 1px solid #cccccc27;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  width: auto;
+}
+
+.Content button {
+  margin: 5px;
+  background-color: #0dc2cf;
+  border-radius: 15px;
+  border: none;
+  padding: 10px  10px;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+}
+.Content button:hover{
+  background-color: #086c74;
+}
+img {
+  margin-top: 10px;
+  max-width: 300px;
+  height: auto;
+}
